@@ -28,7 +28,7 @@ while(opcion < 5):
     elif opcion == 4:
         eliminar()
     elif opcion == 5:
-#        grabar_empresas('empresas.txt')
+        grabar_empresas('empresas.txt')
         mostrar_mensaje("[5] SALIR")
     else:
         mostrar_mensaje("OPCIÓN INVÁLIDA!!!")
